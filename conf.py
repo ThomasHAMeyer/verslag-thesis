@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Dodona'
+project = 'Reviewing in Dodona'
 copyright = '2018, Universiteit Gent'
-author = 'Peter Dawyndt\nBart Mesuere\nEvert Van Petegem\nFelix Van der Jeugt'
+author = 'Thomas Meyer'
 
 # The short X.Y version
 version = '2.3'
@@ -145,7 +145,7 @@ latex_documents = [(
 man_pages = [(
     master_doc,
     'dodona',
-    'Handleiding Dodona',
+    'Handleiding Reviewing in Dodona',
     [author],
     1
 )]
@@ -159,7 +159,7 @@ man_pages = [(
 texinfo_documents = [(
     master_doc,
     'dodona',
-    'Handleiding Dodona',
+    'Handleiding Reviewing in Dodona',
      author,
     'Dodona',
     'online co-teacher voor programmeeropdrachten',
