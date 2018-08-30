@@ -9,6 +9,8 @@ Structuur conversaties en berichten
 
 TODO: uitleg wat beide zijn + UML van hoe ze verbonden zijn met elkaar en bestaande structuur
 
+.. image:: images/structuur_conversation.svg
+
 Structuur reviews
 =================
 
