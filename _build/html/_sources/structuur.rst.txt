@@ -2,7 +2,7 @@
 Interne structuur reviews
 =========================
 
-.. image:: images/structuur_thesis.jpg
+.. image:: images/structuur_thesis.svg
 
 Structuur conversaties en berichten
 ===================================
@@ -15,3 +15,5 @@ Structuur reviews
 =================
 
 TODO: uitleg hoe review werkt + UML
+
+.. image:: images/structuur_review.svg
