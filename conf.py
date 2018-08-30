@@ -21,7 +21,7 @@
 
 project = 'Reviewing in Dodona'
 copyright = '2018, Universiteit Gent'
-author = 'Thomas Meyer'
+author = 'Thomas Meyer\\\\Promotor: Peter Dawyndt'
 
 # The short X.Y version
 version = '2.3'
@@ -133,8 +133,8 @@ latex_elements = {
 latex_documents = [(
     master_doc,
     'dodona.tex',
-    'Handleiding Dodona',
-     'Peter Dawyndt\\\\Bart Mesuere\\\\Felix Van der Jeugt\\\\Evert Van Petegem',
+    'Handleiding: Beoordelen in Dodona',
+     'Thomas Meyer\\\\Promotor: Peter Dawyndt',
     'manual'
 )]
 
@@ -145,7 +145,7 @@ latex_documents = [(
 man_pages = [(
     master_doc,
     'dodona',
-    'Handleiding Reviewing in Dodona',
+    'Handleiding: Beoordelen in Dodona',
     [author],
     1
 )]
@@ -159,7 +159,7 @@ man_pages = [(
 texinfo_documents = [(
     master_doc,
     'dodona',
-    'Handleiding Reviewing in Dodona',
+    'Handleiding: Beoordelen in Dodona',
      author,
     'Dodona',
     'online co-teacher voor programmeeropdrachten',

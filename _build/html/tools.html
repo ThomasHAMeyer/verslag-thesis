@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Tools &mdash; Dodona 2.3 documentatie</title>
+  <title>Tools &mdash; Reviewing in Dodona 2.3 documentatie</title>
   
 
   
@@ -28,8 +28,7 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Zoeken" href="search.html" />
-    <link rel="next" title="Frameworks" href="frameworks.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="bestaande_alternatieven_intro.html" /> 
+    <link rel="next" title="Frameworks" href="frameworks.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -48,7 +47,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> Dodona
+            <a href="index.html" class="icon icon-home"> Reviewing in Dodona
           
 
           
@@ -91,13 +90,39 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Tools</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#gerrit-code-review">Gerrit Code Review</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#gradescope">GradeScope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gradescope">Gradescope</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#gradework">GradeWork</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#canvas">Canvas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ans-delft">Ans Delft</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="frameworks.html">Frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Opmerkingen plaatsen in Dodona</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="opmerking_plaatsen.html">Opmerkingen in Dodona</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Reviewen van oplossingen in Dodona</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="review_voor_lesgevers.html">Reviews gebruiken als lesgever</a></li>
+<li class="toctree-l1"><a class="reference internal" href="review_voor_studenten.html">Reviews gebruiken als student</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Ontwikkeling</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ror_ideologie.html">Ruby on Rails</a></li>
+<li class="toctree-l1"><a class="reference internal" href="structuur.html">Interne structuur reviews</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Mogelijke uitbreidingen</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="hergebruik_berichten.html">Berichten hergebruiken</a></li>
+<li class="toctree-l1"><a class="reference internal" href="peer_reviews.html">Peer reviews</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scoring.html">Puntentelling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="automatische_suggesties.html">Automatische suggesties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="to_pdf.html">PDF generatie</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Conclusies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="conclusies.html">Conclusie</a></li>
 </ul>
 
             
@@ -112,7 +137,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Dodona</a>
+          <a href="index.html">Reviewing in Dodona</a>
         
       </nav>
 
@@ -164,35 +189,41 @@
             
   <div class="section" id="tools">
 <h1>Tools<a class="headerlink" href="#tools" title="Permalink naar deze titel">¶</a></h1>
+<p>Het online beoordelen is geen nieuw probleem, en dus zijn er al verschillende tools die dit probleem proberen aan te kaarten.
+Om inspiratie op te doen en om na te gaan of er geen bestaande oplossingen zijn die aan Dodona gekoppeld kunnen worden met een minimale inspanning, bekijken we hier kort enkele tools die voor dit doel gebruikt kunnen worden.</p>
 <div class="section" id="gerrit-code-review">
 <h2>Gerrit Code Review<a class="headerlink" href="#gerrit-code-review" title="Permalink naar deze titel">¶</a></h2>
-<p>Geritt Code Review is een tool waarmee veranderingen in git repositories gereviewed kunnen worden.
+<p>Geritt Code Review is een tool waarmee veranderingen in git repositories beoordeeld kunnen worden.
 Het laat toe om de verandering te bespreken en er een score aan te geven.
-De score bepaald dan of de veranderingen doorgevoerd mogen worden of niet.</p>
-<p>Voor onze doeleinden is deze tool minder relevant omdat dit toespitst op verschillen tussen versies van dezelfde code.
+De score bepaalt dan of de veranderingen doorgevoerd mogen worden of niet.</p>
+<p>Voor onze doeleinden is deze tool minder relevant omdat de tool focust op verschillen tussen versies van dezelfde code.
 Het visualiseren van de opmerkingen wordt deels gedaan door de code die besproken wordt te markeren, iets wat voor onze doeleinden wel een goed idee zou zijn.</p>
+<p>Link: <a class="reference external" href="https://www.gerritcodereview.com/">Gerrit Code Review</a></p>
 </div>
 <div class="section" id="gradescope">
-<h2>GradeScope<a class="headerlink" href="#gradescope" title="Permalink naar deze titel">¶</a></h2>
+<h2>Gradescope<a class="headerlink" href="#gradescope" title="Permalink naar deze titel">¶</a></h2>
 <p>Gradescope is een online tool waarmee onder andere oplossingen verbeterd kunnen worden. Het ondersteund rubrics waar punten aan gehangen kunnen worden en die eenvoudig hergebruikt kunnen worden.</p>
-<p>Dit was een goed voorbeeld voor het verbeteren van oplossingen en bevat veel elementen die overgenomen worden: gesynchroniseerde punten voor opmerkingen, een zijbalk met reeds gemaakte opmerkingen, …</p>
+<p>Dit was een goed voorbeeld voor het verbeteren van oplossingen en bevat veel elementen die overgenomen worden, zoals gesynchroniseerde punten voor opmerkingen en een zijbalk met reeds gemaakte opmerkingen.</p>
+<p>Link: <a class="reference external" href="https://www.gradescope.com/">Gradescope</a></p>
 </div>
 <div class="section" id="gradework">
 <h2>GradeWork<a class="headerlink" href="#gradework" title="Permalink naar deze titel">¶</a></h2>
-<p>GradeWork is een online tool gelijkaardig aan GradeScope maar eerder toegespitst op verslagen te verbeteren dan code.
-Het bevat veel uitgebreidere rubricsen dan GradeWork, maar deze zijn minder relevant voor code.</p>
+<p>GradeWork is een online tool gelijkaardig aan Gradescope maar eerder toegespitst op het verbeteren van verslagen.
+Het bevat veel uitgebreidere rubrics dan Gradescope, maar deze zijn minder relevant voor programma code.</p>
+<p>Link: <a class="reference external" href="https://www.xebic.com/nl/oplossingen/gradework">GradeWork</a></p>
 </div>
 <div class="section" id="canvas">
 <h2>Canvas<a class="headerlink" href="#canvas" title="Permalink naar deze titel">¶</a></h2>
-<p>Canvas is een tool aar het de bedoeling is om volledige lessen mee te geven en te ondersteunen.
-De optie om te kunnen tekenen en vrij te schrijven is een pluspunt maar geen noodzakelijk iets bij het verbeteren van code.
+<p>Canvas is een online tool die als doel heeft om volledige lessen mee te geven en te ondersteunen.</p>
+<p>In Canvas heeft de gebruiker de optie om te kunnen tekenen en vrij te schrijven, wat een pluspunt is maar geen noodzakelijk iets bij het verbeteren van code.
 Andere nuttige punten zijn het kunnen plaatsen van video of ingesproken feedback.</p>
+<p>Link: <a class="reference external" href="https://community.canvaslms.com/">Canvas</a></p>
 </div>
 <div class="section" id="ans-delft">
 <h2>Ans Delft<a class="headerlink" href="#ans-delft" title="Permalink naar deze titel">¶</a></h2>
-<p>Ans Delft is een andere tool die ook meer dan enkel voor te reviewen is.
-Het ondersteund volledige lessen en taken en kan gebruikt worden om alles te organiseren voor een cursus.
+<p>Ans Delft is een online tool die ondersteuning bied om volledige lessen en taken online te laten verlopen en kan gebruikt worden om alles te organiseren voor een cursus.
 Het was gemakkelijk en overzichtelijk om mee te reviewen maar vereiste veel klikken om door alle menus te geraken.</p>
+<p>Link: <a class="reference external" href="https://www.ans-delft.nl/">Ans Delft</a></p>
 </div>
 </div>
 
@@ -206,8 +237,6 @@ Het was gemakkelijk en overzichtelijk om mee te reviewen maar vereiste veel klik
       
         <a href="frameworks.html" class="btn btn-neutral float-right" title="Frameworks" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-      
-        <a href="bestaande_alternatieven_intro.html" class="btn btn-neutral" title="&lt;no title&gt;" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

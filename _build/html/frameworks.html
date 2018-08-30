@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Frameworks &mdash; Dodona 2.3 documentatie</title>
+  <title>Frameworks &mdash; Reviewing in Dodona 2.3 documentatie</title>
   
 
   
@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Zoeken" href="search.html" />
+    <link rel="next" title="Opmerkingen in Dodona" href="opmerking_plaatsen.html" />
     <link rel="prev" title="Tools" href="tools.html" /> 
 
   
@@ -47,7 +48,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> Dodona
+            <a href="index.html" class="icon icon-home"> Reviewing in Dodona
           
 
           
@@ -96,6 +97,32 @@
 </ul>
 </li>
 </ul>
+<p class="caption"><span class="caption-text">Opmerkingen plaatsen in Dodona</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="opmerking_plaatsen.html">Opmerkingen in Dodona</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Reviewen van oplossingen in Dodona</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="review_voor_lesgevers.html">Reviews gebruiken als lesgever</a></li>
+<li class="toctree-l1"><a class="reference internal" href="review_voor_studenten.html">Reviews gebruiken als student</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Ontwikkeling</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ror_ideologie.html">Ruby on Rails</a></li>
+<li class="toctree-l1"><a class="reference internal" href="structuur.html">Interne structuur reviews</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Mogelijke uitbreidingen</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="hergebruik_berichten.html">Berichten hergebruiken</a></li>
+<li class="toctree-l1"><a class="reference internal" href="peer_reviews.html">Peer reviews</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scoring.html">Puntentelling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="automatische_suggesties.html">Automatische suggesties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="to_pdf.html">PDF generatie</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Conclusies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="conclusies.html">Conclusie</a></li>
+</ul>
 
             
           
@@ -109,7 +136,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Dodona</a>
+          <a href="index.html">Reviewing in Dodona</a>
         
       </nav>
 
@@ -161,23 +188,31 @@
             
   <div class="section" id="frameworks">
 <h1>Frameworks<a class="headerlink" href="#frameworks" title="Permalink naar deze titel">¶</a></h1>
+<p>Naast tools zijn er ook meerdere frameworks gemaakt om online content te beoordelen.
+We bespreken hier een paar frameworks en wat we ervan hebben overgenomen.</p>
 <div class="section" id="annotator-hypothes-is">
 <h2>Annotator/Hypothes.is<a class="headerlink" href="#annotator-hypothes-is" title="Permalink naar deze titel">¶</a></h2>
-<p>Hypothes.is is een platform dat gebruik maakt van Annotator om webpaginas te reviewen.
-Dit is te gebruiker door middel van een browser plugin.
-Er zijn veel goede features aan dit framework, zo kan met tekst markeren, opmerkingen plaatsen, reageren en opmerkingen maar met bepaalde groepen delen.
-Spijtig genoeg is de ontwikkeling en ondersteuning van Hypothes.is gestopt.</p>
+<p>Annotator is een JavaScript library die het mogelijk maakt om annotatie functionaliteit aan webpaginas toe te voegen.</p>
+<p>Hypothes.is is een platform dat gebruik maakt van Annotator om webpagina’s van commentaar te voorzien.
+Het frameork is te gebruiken door middel van een browser plugin.
+Er zijn veel goede features aan dit framework, zo kan met tekst markeren, opmerkingen plaatsen, reageren en opmerkingen met bepaalde groepen delen.
+De frontend van Hypothes.is was zo vervlogen met hun eigen backend dat er geen code van hergebruikt kon worden.</p>
+<p>Spijtig genoeg is de ontwikkeling voor zowel Annotator als Hypothes.is gestopt.</p>
+<p>Link: <a class="reference external" href="http://annotatorjs.org/">Annotator</a>
+Link: <a class="reference external" href="https://web.hypothes.is/">Hypothes.is</a></p>
 </div>
 <div class="section" id="pycco">
 <h2>Pycco<a class="headerlink" href="#pycco" title="Permalink naar deze titel">¶</a></h2>
-<p>Pycco is een framework om documentatie bij code toe te voegen.
-Het doet dit door de code en documentatie naast elkaar te plaatsen en zo te positioneren dat documentatie bij de relevante code staat.
+<p>Pycco is een framework om documentatie toe te voegen aan programma code.
+Het doet dit door de programma code en documentatie naast elkaar te plaatsen en zo te positioneren dat documentatie bij de relevante code staat.
 Dit heeft als groot nadeel dat de er veel witruimte wordt gemaakt en dat de code veel langer wordt.</p>
+<p>Link: <a class="reference external" href="https://pycco-docs.github.io/pycco/">Pycco</a></p>
 </div>
 <div class="section" id="genius">
 <h2>Genius<a class="headerlink" href="#genius" title="Permalink naar deze titel">¶</a></h2>
 <p>Genius is een website waar het mogelijk is om songteksten van opmerkingen te voorzien.
 Het systeem waarmee ze opmerkingen voorzien is overzichtelijk, met gemarkeerde regels in de tekst waarbij de opmerkingen pas zichtbaar worden nadat de tekst aangeklikt is.</p>
+<p>Link: <a class="reference external" href="https://genius.com/">Genius</a></p>
 </div>
 </div>
 
@@ -188,6 +223,8 @@ Het systeem waarmee ze opmerkingen voorzien is overzichtelijk, met gemarkeerde r
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="opmerking_plaatsen.html" class="btn btn-neutral float-right" title="Opmerkingen in Dodona" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="tools.html" class="btn btn-neutral" title="Tools" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
