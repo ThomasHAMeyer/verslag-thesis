@@ -1,7 +1,6 @@
 =============
 Ruby on Rails
 =============
-
 Dodona wordt ontwikkeld met Ruby on Rails, een web framework dat het model-view-controller patroon volgt.
 Het model-view-controller patroon is een design patroon waarbij er drie soorten klassen zijn.
 De modellen die de objecten die persistent opgeslagen worden in een databank voorstellen.

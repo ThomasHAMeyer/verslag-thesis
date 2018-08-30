@@ -1,7 +1,6 @@
 =============
 Puntentelling
 =============
-
 Een logische uitbreiding is om punten te kunnen geven aan oplossingen.
 Als dit op een gestructureerde manier gedaan wordt dan kan ervoor gezorgd worden dat dezelfde fout voor alle studenten evenveel impact heeft.
 Als verschillende studenten dezelfde fout maken, dan zouden we hier dezelfde rubric aan kunnen linken.

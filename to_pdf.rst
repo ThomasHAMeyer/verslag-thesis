@@ -1,8 +1,7 @@
 =============
 PDF generatie
 =============
-
-Een feature die niet primair, maar wel nuttig is, is het kunnen omzetten van beoordeelde oplossingen naar pdf-formaat.
+Een feature die niet prioritair, maar wel nuttig is, is het kunnen omzetten van beoordeelde oplossingen naar pdf-formaat.
 Dit zou gebruikt kunnen worden als het verplicht is om een papieren versie te archiveren.
 Dit vereist dat er een speciaal formaat gezocht moet worden om de code en de opmerkingen ordelijk samen te voegen in pdf-formaat.
 Zo is de aanpak gebruikt door Pycco zeer overzichtelijk maar zou het de pdf veel langer maken wat niet de bedoeling is.

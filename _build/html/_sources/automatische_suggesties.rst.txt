@@ -1,7 +1,6 @@
 =======================
 Automatische suggesties
 =======================
-
 Een geavanceerde uitbreiding zou zijn om met behulp van machine learning opmerkingen voor te stellen.
 Dit zou het verbeter proces kunnen versnellen door te zoeken naar fouten en de daarmee gepaarde opmerkingen.
 Dit zou in een eerste stap zoeken naar code of patronen waar vaak opmerkingen op gemaakt worden en dan in een volgende stap de meest gepaste opmerking voorstellen.

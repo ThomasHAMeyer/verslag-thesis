@@ -2,6 +2,8 @@
 Interne structuur reviews
 =========================
 
+.. image:: images/structuur_thesis.jpg
+
 Structuur conversaties en berichten
 ===================================
 

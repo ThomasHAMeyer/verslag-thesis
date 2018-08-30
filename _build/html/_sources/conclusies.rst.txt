@@ -1,7 +1,6 @@
 =========
 Conclusie
 =========
-
 We hebben een prototype gemaakt waarmee het mogelijk is om oplossingen van feedback en commentaar te voorzien en waarmee structureel alle oplossingen van een oefening beoordeeld kunnen worden.
 We ondersteunen ook dat oplossingen in een willekeurige volgorde verbeterd worden waarbij de student geanonimiseerd is. 
 Dit prototype is een basis waarop de voorgestelde uitbreidingen kunnen gemaakt worden.

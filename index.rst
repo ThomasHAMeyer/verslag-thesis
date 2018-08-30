@@ -12,7 +12,6 @@ Thesis: Review systeem Dodona
    :maxdepth: 3
    :caption: Bestaande alternatieven
 
-   bestaande_alternatieven_intro
    tools
    frameworks
    

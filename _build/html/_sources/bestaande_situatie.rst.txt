@@ -1,7 +1,6 @@
 =========
 Inleiding
 =========
-
 Het verbeteren van een examen of een evaluatie die wordt afgenomen met Dodona verloopt in verschillende stappen. 
 
 Eerst moeten de studenten hun oplossingen indienen op Dodona.
