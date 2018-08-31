@@ -24,9 +24,9 @@ copyright = '2018, Universiteit Gent'
 author = 'Thomas Meyer\\\\Promotor: Peter Dawyndt'
 
 # The short X.Y version
-version = '2.3'
+version = ''
 # The full version, including alpha/beta/rc tags
-release = '2.3'
+release = ''
 
 
 # -- General configuration ---------------------------------------------------

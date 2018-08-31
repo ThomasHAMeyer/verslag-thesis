@@ -17,13 +17,13 @@ Thesis: Review systeem Dodona
    
 .. toctree::
    :maxdepth: 3
-   :caption: Opmerkingen plaatsen in Dodona
+   :caption: Opmerkingen plaatsen
    
    opmerking_plaatsen
    
 .. toctree::
    :maxdepth: 3
-   :caption: Reviewen van oplossingen in Dodona
+   :caption: Reviewen van oplossingen
 
    review_voor_lesgevers
    review_voor_studenten
@@ -36,14 +36,11 @@ Thesis: Review systeem Dodona
    structuur
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Mogelijke uitbreidingen
+   :maxdepth: 3
+   :caption: Verdere ontwikkeling
 
-   hergebruik_berichten
-   peer_reviews
-   scoring
-   automatische_suggesties
-   to_pdf
+   todo
+   uitbreidingen
    
 .. toctree::
    :maxdepth: 2

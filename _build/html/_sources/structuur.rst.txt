@@ -1,6 +1,6 @@
-=========================
-Interne structuur reviews
-=========================
+=================
+Interne structuur
+=================
 Het prototype bestaat uit twee grote systemen: het deel dat werkt rond de reviews en het deel dat werkt rond de conversaties en berichten.
 In de volgende stukken worden deze 2 delen uitgebreid besproken.
 
