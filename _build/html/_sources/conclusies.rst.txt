@@ -15,3 +15,5 @@ Er moet ook bepaald worden in welke mate dit systeem het verbeterproces bevorder
 Zo is het tijdsverschil tussen op papier en elektronisch verbeteren nog niet gemeten kunnen worden.
 
 We zijn van mening dat het ontworpen systeem, na verdere uitbreidingen en verfijningen, een verbetering in het verbeterproces en het feedback process zal opleveren.
+
+Het github repository van het prototype is `hier <https://github.ugent.be/tmeyer/dodona>`_ vinden.

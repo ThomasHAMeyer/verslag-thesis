@@ -10,6 +10,11 @@ In het prototype wordt er niet nagekeken of een gebruiker de nieuwe methodes mag
 Sommige links zijn verborgen voor gewone gebruikers, maar voorlopig wordt er nog niet nagekeken of een gebruiker wel of niet toegang heeft tot een bepaald webpagina.
 Dit is op te lossen met Policy-objecten in Ruby on Rails en moet dus nog gedaan worden.
 
+Menu om de ingeladen oplossing te veranderen aanpassen
+======================================================
+Het bestaande menu is een plaatshouder dat dienst doet maar visueel niet oogt.
+Het is de bedoeling dat dit vervangen wordt door een tijdslijn waarop de huidige oplossing, de overige ingediende oplossingen, hun status en de deadline zichtbaar zijn.
+
 Opmaak consistent maken
 =======================
 Op sommige plaatsen worden er knoppen met verschillende opmaak gebruikt.
