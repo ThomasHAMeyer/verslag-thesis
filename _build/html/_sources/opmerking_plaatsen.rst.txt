@@ -1,10 +1,10 @@
 ====================
 Opmerkingen plaatsen
 ====================
-Opmerkingen worden in het prototype enkel geplaatst op de oplossingen webpagina's en op de relevante review webpagina's.
-Later is het de bedoeling dat men ook opmerkingen kan plaatsen op de oefeningen- en de cursus webpagina's.
+Opmerkingen worden in het prototype enkel geplaatst op de Oplossing-webpagina's en op de relevante Review-webpagina's.
+Later is het de bedoeling dat men ook opmerkingen kan plaatsen op de Oefeningen- en de Cursus-webpagina's.
 
-Overzicht van oplossing webpagina
+Overzicht van Oplossing-webpagina
 =================================
 
 Als men op de pagina van een oplossing komt kan men aan de rechterkant de bestaande conversaties en het formulier voor het maken van een nieuwe conversatie zien.
@@ -12,25 +12,25 @@ Als men op de pagina van een oplossing komt kan men aan de rechterkant de bestaa
 .. image:: images/opmerkingen/overview.png
 
 Als er op de titelbalk van een conversatie geklikt wordt, klapt de conversatie open waardoor de berichten zichtbaar worden.
-Als er in de conversatie naar code gerefereerd wordt dan wordt deze in beeld gebracht en gemarkeerd. (Op de afbeelding is het formulier om een nieuwe conversatie te starten weggelaten)
+Als er in de conversatie naar code gerefereerd wordt dan wordt deze in beeld gebracht en gemarkeerd. (Op de onderstaande afbeelding is het formulier om een nieuwe conversatie te starten weggelaten)
 
 .. image:: images/opmerkingen/clicked_title_banner.png
 
-Als er opnieuw op de titelbalk wordt geklikt, dan vouwt de conversatie weer toe en wordt de markering op de code weggedaan.
+Als er opnieuw op de titelbalk wordt geklikt vouwt de conversatie weer dicht en wordt de markering op de code weggedaan.
 
 Conversatie starten
 ===================
 Onderstaande afbeelding geeft het scherm weer waarmee een nieuwe conversatie gestart kan worden. 
 Het bevat een veld om de titel van de conversatie in te geven en een veld om de boodschap in te geven.
-Het bevat ook twee knoppen: één om code toe te voegen en één om het bericht te plaatsen en eveneens de conversatie te starten.
+Verder bevat het ook twee knoppen: één om code toe te voegen en één om het bericht te plaatsen en eveneens de conversatie te starten.
 
 .. image:: images/opmerkingen/start_conversation.png
 
-Als er geprobeerd wordt om een conversatie te starten zonder titel en/of boodschap mee te geven zal er een foutmelding komen.
+Als er geprobeerd wordt om een conversatie te starten zonder titel en/of boodschap mee te geven zal er een foutmelding verschijnen.
 
 .. image:: images/opmerkingen/start_conversation_error.png
 
-Als er code geselecteerd wordt en dan op de knop voor het toevoegen van code gedrukt wordt, dan zal deze aan de conversatie gehangen worden.
+Als er code geselecteerd wordt en er op de knop voor het toevoegen van code gedrukt wordt, dan zal deze aan de conversatie gekoppeld worden.
 Hieronder staan twee afbeeldingen: één voor er code toegevoegd is en één nadat code toegevoegd is.
 Het is mogelijk om de code meermaals aan te passen door nieuwe code te selecteren en op de knop te drukken of om de code weg te laten door niets te selecteren en op de knop te drukken.
 .. image:: images/opmerkingen/start_conversation_pre_code_selection.png
@@ -45,7 +45,7 @@ Dit maakt de conversatie en het eerste bericht aan.
 Reageren op een opmerking
 =========================
 Het is mogelijk om op een boodschap te reageren.
-Dit kan gedaan worden door in een conversatie in het tekstvak na het laatste bericht een boodschap te schrijven en op de bijhorend knop te drukken.
+Dit kan gedaan worden door in een conversatie in het tekstvak na het laatste bericht een boodschap te schrijven en op de Verzenden knop te drukken.
 
 .. image:: images/opmerkingen/post_reaction.png
 
@@ -61,7 +61,7 @@ Het is mogelijk om hierna nog reacties te plaatsen op analoge manier.
 
 Reactie aanpassen en verwijderen
 ================================
-Het is mogelijk om een reactie aan te passen of te verwijderen (zolang je ze zelf hebt geplaatst).
+Het is mogelijk om een eigen geplaatste reactie aan te passen of te verwijderen.
 
 Als er op de knop wordt gedrukt om een reactie aan te passen wordt er een formulier weergegeven waar de boodschap van de reactie aangepast kan worden.
 
@@ -70,7 +70,7 @@ Als er op de knop wordt gedrukt om een reactie aan te passen wordt er een formul
 Zoals bij het aanmaken van een reactie is het verplicht om tekst in te geven, als er geen tekst wordt ingegeven wordt er weer een foutboodschap weergegeven.
 Er zijn koppen om de aanpassingen door te voeren of om het aanpassen te annuleren.
 
-Als er op de knop voor het verwijderen van een reactie wordt gedrukt wordt er om bevestiging gevraagd of de gebruiker zeker is dat hij zijn reactie wil verwijderen.
+Als er op de knop voor het verwijderen van een reactie wordt gedrukt, wordt er om bevestiging gevraagd.
 
 .. image:: images/opmerkingen/confirm_delete_reaction.png
 
@@ -95,6 +95,6 @@ Als een lege titel wordt ingegeven krijgt men een foutmelding bij het proberen a
 .. image:: images/opmerkingen/edit_title.png
 
 Als men probeert een conversatie te verwijderen krijgt men een bevestigingsbericht.
-Het verwijderen van een conversatie houdt in dat alle berichten in deze conversatie ook verwijdert worden.
+Het verwijderen van een conversatie houdt in dat alle berichten in deze conversatie ook verwijderd worden.
 
 .. image:: images/opmerkingen/confirm_delete_conversation.png

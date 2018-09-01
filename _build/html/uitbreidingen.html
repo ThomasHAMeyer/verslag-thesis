@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Verdere uitbreidingen &mdash; Reviewing in Dodona  documentatie</title>
+  <title>Verdere uitbreidingen &mdash; Beoordelen in Dodona  documentatie</title>
   
 
   
@@ -48,7 +48,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> Reviewing in Dodona
+            <a href="index.html" class="icon icon-home"> Beoordelen in Dodona
           
 
           
@@ -94,8 +94,8 @@
 </ul>
 <p class="caption"><span class="caption-text">Reviewen van oplossingen</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="review_voor_lesgevers.html">Reviews gebruiken als lesgever</a></li>
-<li class="toctree-l1"><a class="reference internal" href="review_voor_studenten.html">Reviews gebruiken als student</a></li>
+<li class="toctree-l1"><a class="reference internal" href="review_voor_lesgevers.html">Werken met reviews als beoordelaar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="review_voor_studenten.html">Werken met reviews als gebruiker</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Ontwikkeling</span></p>
 <ul>
@@ -132,7 +132,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Reviewing in Dodona</a>
+          <a href="index.html">Beoordelen in Dodona</a>
         
       </nav>
 
@@ -184,8 +184,8 @@
             
   <div class="section" id="verdere-uitbreidingen">
 <h1>Verdere uitbreidingen<a class="headerlink" href="#verdere-uitbreidingen" title="Permalink naar deze titel">¶</a></h1>
-<p>Hieronder bespreken we verdere uitbreidingen die gedaan moeten/kunnen worden om het prototype beter te maken.
-Deze uitbreidingen bevatten onder andere geplande delen die niet geïmplementeerd geraakt zijn als uitbreidingen die een verhoging in het gebruiksgemak teweeg kunnen brengen.</p>
+<p>Hieronder bespreken we verdere uitbreidingen die gedaan moeten/kunnen worden om het prototype te verbeteren.
+Deze uitbreidingen bevatten onder andere geplande delen die niet geïmplementeerd geraakt zijn en uitbreidingen die een verhoging in het gebruiksgemak teweeg kunnen brengen.</p>
 <div class="section" id="berichten-hergebruiken">
 <h2>Berichten hergebruiken<a class="headerlink" href="#berichten-hergebruiken" title="Permalink naar deze titel">¶</a></h2>
 <p>Een mogelijkheid die van bij aanvang gepland was maar die we niet hebben kunnen implementeren, is om feedbackberichten op te slaan en te hergebruiken (met de mogelijkheid om ze ook nog te bewerken).
@@ -196,25 +196,25 @@ Afhankelijk van hoe vaak een gelijkaardige opmerking gemaakt moet worden zal dez
 <div class="section" id="peer-reviews">
 <h2>Peer reviews<a class="headerlink" href="#peer-reviews" title="Permalink naar deze titel">¶</a></h2>
 <p>Een zeer nuttige manier van leren is door middel van peer reviews, het verbeteren van oplossingen van andere studenten en feedback van andere studenten krijgen.
-Het huidige systeem aanpassen om een optie te geven dat studenten aan peer reviews kunnen doen is relatief eenvoudig te doen.
+Het huidige systeem aanpassen om de optie te bieden dat studenten aan peer reviews kunnen doen is relatief eenvoudig.
 Dit vergt aangepaste versies van de bestaande views en controllers waarbij er voor gezorgd moet worden dat anonimiteit verzekerd is.
-Dit zou een zeer gewenste uitbreiding zijn omdat er voorlopig maar weinig systemen zijn die toelaten om eenvoudig peer reviews te doen.</p>
+Dit zou een waardevolle uitbreiding zijn omdat er voorlopig maar weinig systemen zijn die toelaten om eenvoudig peer reviews te doen.</p>
 </div>
 <div class="section" id="puntentelling">
 <h2>Puntentelling<a class="headerlink" href="#puntentelling" title="Permalink naar deze titel">¶</a></h2>
 <p>Een logische uitbreiding is om punten te kunnen geven aan oplossingen.
-Als dit op een gestructureerde manier gedaan wordt dan kan ervoor gezorgd worden dat dezelfde fout voor alle studenten evenveel impact heeft.
-Als verschillende studenten dezelfde fout maken, dan zouden we hier dezelfde rubric aan kunnen linken.
+Als dit op een gestructureerde manier gedaan wordt kan ervoor gezorgd worden dat dezelfde fout voor alle studenten evenveel impact heeft.
+Als verschillende studenten dezelfde fout maken zouden we hier dezelfde rubric aan kunnen linken.
 Deze rubric geeft dan aan hoe zwaar de fout doorweegt.
-Als er dan later besloten wordt dat deze fout meer of minder moet doorwegen dan moet deze rubrics één keer aangepast worden en geldt de aanpassing voor alle studenten.
+Als er later besloten wordt dat deze fout meer of minder moet doorwegen moet deze rubrics één keer aangepast worden en geldt de aanpassing voor alle studenten.
 Op papier vereist het aanpassen van het gewicht van een fout dat alle reeds verbeterde oplossingen gecorrigeerd worden.</p>
 </div>
 <div class="section" id="automatische-suggesties">
 <h2>Automatische suggesties<a class="headerlink" href="#automatische-suggesties" title="Permalink naar deze titel">¶</a></h2>
 <p>Een geavanceerde uitbreiding zou zijn om met behulp van machine learning opmerkingen voor te stellen.
 Dit zou het verbeter proces kunnen versnellen door te zoeken naar fouten en de daarmee gepaarde opmerkingen.
-Dit zou in een eerste stap zoeken naar code of patronen waar vaak opmerkingen op gemaakt worden en dan in een volgende stap de meest gepaste opmerking voorstellen.</p>
-<p>Een uitdaging hierbij is dat het snel moet gebeuren. Het is niet acceptabel om minuten te moeten wachten vooraleer men kan beginnen reviewen.
+Een eerste stap in het automatisch voorstellen is zoeken naar code of patronen waar vaak opmerkingen op gemaakt worden en dan in een volgende stap de meest gepaste opmerking voorstellen.</p>
+<p>Een uitdaging hierbij is dat het performant moet zijn. Het is niet acceptabel om minuten te moeten wachten vooraleer men kan beginnen reviewen.
 Een volgend “probleem” is het vinden van data. Voor machine learning hebben we veel data nodig wat hier moeilijk is.
 Zo zijn de opmerkingen en fouten anders voor elke taal en is iets wat in een basiscursus aangeleerd wordt mogelijk fout voor een cursus gevorderde algoritmen waar de voorgestelde oplossing niet performant genoeg is.
 Zo zijn geneste for-lussen iets wat een beginnend programmeur snel zal gebruiken terwijl dit voor ervaren programmeurs niet acceptabel is vanwege de complexiteit.</p>
@@ -224,12 +224,11 @@ Zo zijn geneste for-lussen iets wat een beginnend programmeur snel zal gebruiken
 <p>Een feature die niet prioritair, maar wel nuttig is, is het kunnen omzetten van beoordeelde oplossingen naar pdf-formaat.
 Dit zou gebruikt kunnen worden als het verplicht is om een papieren versie te archiveren.
 Dit vereist dat er een speciaal formaat gezocht moet worden om de code en de opmerkingen ordelijk samen te voegen in pdf-formaat.
-Zo is de aanpak gebruikt door Pycco zeer overzichtelijk maar zou het de pdf veel langer maken wat niet de bedoeling is.
-Maar aangezien we beperkt zijn tot A4 formaat is het ook niet mogelijk om een zijbalk met daarin de opmerkingen te gebruiken.</p>
+Zo is de aanpak gebruikt door Pycco zeer overzichtelijk maar zou het de pdf veel langer maken wat niet de bedoeling is.</p>
 </div>
 <div class="section" id="anonimiteit-beoordelaar">
 <h2>Anonimiteit beoordelaar<a class="headerlink" href="#anonimiteit-beoordelaar" title="Permalink naar deze titel">¶</a></h2>
-<p>Een kleine uitbreiding om te implementeren, is om de identiteit van de beoordelaar te verbergen.
+<p>Een kleine uitbreiding om te implementeren is om de identiteit van de beoordelaar te verbergen.
 Dit heeft als effect dat gebruikers niet kunnen klagen over wie hun oplossing heeft beoordeeld, maar dat ze enkel kunnen klagen over de beoordeling zelf.
 Deze uitbreiding moet ook geïmplementeerd worden als men de peer reviews uitbreiding zou maken, zodat het niet mogelijk is om te weten wie welke beoordeling heeft gemaakt.</p>
 </div>

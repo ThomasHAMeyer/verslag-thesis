@@ -1,7 +1,7 @@
 Tools
 =====
-Het online beoordelen is geen nieuw probleem, en dus zijn er al verschillende tools die dit probleem proberen aan te kaarten.
-Om inspiratie op te doen en om na te gaan of er geen bestaande oplossingen zijn die aan Dodona gekoppeld kunnen worden met een minimale inspanning, bekijken we hier kort enkele tools die voor dit doel gebruikt kunnen worden.
+Het online beoordelen is geen nieuwe issue, en dus zijn er al verschillende tools die dit probleem proberen aan te kaarten.
+Om na te gaan of er geen bestaande oplossingen voorhanden zijn die aan Dodona gekoppeld kunnen worden met een minimale inspanning, bekijken we hier kort enkele tools die voor dit doel gebruikt kunnen worden.
 
 Gerrit Code Review
 ------------------
@@ -10,15 +10,15 @@ Het laat toe om de verandering te bespreken en er een score aan te geven.
 De score bepaalt dan of de veranderingen doorgevoerd mogen worden of niet.
 
 Voor onze doeleinden is deze tool minder relevant omdat de tool focust op verschillen tussen versies van dezelfde code.
-Het visualiseren van de opmerkingen wordt deels gedaan door de code die besproken wordt te markeren, iets wat voor onze doeleinden wel een goed idee zou zijn.
+Het visualiseren van de opmerkingen wordt deels gedaan door de code die besproken wordt te markeren, iets wat voor onze doeleinden wel bruikbaar kan zijn.
 
 Link: `Gerrit Code Review <https://www.gerritcodereview.com/>`_
 
 Gradescope
 ----------
-Gradescope is een online tool waarmee onder andere oplossingen verbeterd kunnen worden. Het ondersteund rubrics waar punten aan gehangen kunnen worden en die eenvoudig hergebruikt kunnen worden.
+Gradescope is een online tool waarmee onder andere oplossingen verbeterd kunnen worden. Het ondersteunt rubrics waar punten aan gehangen kunnen worden en die eenvoudig hergebruikt kunnen worden.
 
-Dit was een goed voorbeeld voor het verbeteren van oplossingen en bevat veel elementen die overgenomen worden, zoals gesynchroniseerde punten voor opmerkingen en een zijbalk met reeds gemaakte opmerkingen.
+Dit is een goed voorbeeld voor het verbeteren van oplossingen en bevat veel elementen die overgenomen worden, zoals gesynchroniseerde punten voor opmerkingen en een zijbalk met reeds gemaakte opmerkingen.
 
 Link: `Gradescope <https://www.gradescope.com/>`_
 
@@ -40,7 +40,7 @@ Link: `Canvas <https://community.canvaslms.com/>`_
 
 Ans Delft
 ---------
-Ans Delft is een online tool die ondersteuning bied om volledige lessen en taken online te laten verlopen en kan gebruikt worden om alles te organiseren voor een cursus.
-Het was gemakkelijk en overzichtelijk om mee te reviewen maar vereiste veel klikken om door alle menus te geraken. 
+Ans Delft is een online tool die ondersteuning biedt om volledige lessen en taken online te laten verlopen en kan gebruikt worden om alles te organiseren voor een cursus.
+Het is gemakkelijk en overzichtelijk om mee te reviewen maar vereist veel klikken om door alle menu's te geraken. 
 
 Link: `Ans Delft <https://www.ans-delft.nl/>`_

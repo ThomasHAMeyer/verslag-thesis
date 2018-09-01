@@ -1,8 +1,8 @@
 ==============
 Doelstellingen
 ==============
-Het doel van deze thesis is om het aantal stappen bij het verbeteren van een examen te verminderen en de overige stappen gemakkelijker te maken.
-Hiertoe bekijken we de volgende vragen om te verduidelijken wat onze doelstellingen zijn.
+Het doel van deze thesis is om het aantal stappen bij het verbeteren van een examen te verminderen en de overige stappen te vereenvoudigen.
+Hiertoe bekijken we de volgende vragen om te verduidelijken wat de doelstellingen zijn.
 
 Kunnen we het review proces online laten verlopen?
 ==================================================
@@ -18,20 +18,20 @@ Welke voordelen kunnen we verbeteraars bieden?
 Dit geeft de optie om oplossingen te verbeteren zonder te weten van welke student deze afkomstig is.
 Verder kunnen oplossingen in een willekeurige volgorde verbeterd worden.
 Reeds gemaakte opmerkingen kunnen ook gemakkelijker hergebruikt worden.
-De opmerkingen zelf kunnen ook geanonimiseerd worden, zodat de studenten niet weten van wie de opmerkingen komen.
+De opmerkingen zelf kunnen eveneens geanonimiseerd worden, zodat de studenten niet weten van wie de opmerkingen komen.
 
 Welke nadelen kunnen er zijn voor verbeteraars?
 ===============================================
 Het is mogelijk dat online beoordelen een grotere tijdsinspanning vereist dan op papier verbeteren.
 Er moet dus nagekeken worden op welke manieren we het online review-proces kunnen versnellen.
-De interactiviteit bij het review-proces kan ook tot meer werk leiden voor de verbeteraars.
-Dit moet in de praktijk getest worden in hoeverre de interactiviteit nuttig is met betrekking to de extra inspanning die verbeteraars moeten maken.
+De interactiviteit bij het review-proces kan mogelijk tot meer werk leiden voor de verbeteraars.
+In de praktijk moet nog getest worden in hoeverre de interactiviteit nuttig is met betrekking to de extra inspanning die verbeteraars moeten maken.
 
 Hoe hoog is de instap drempel voor verbeteraars?
 ================================================
-Een belangrijke vraag is hoe we verbeteraars kunnen overtuigen om online oplossingen te beoordelen.
+Een belangrijke vraag is hoe we verbeteraars kunnen motiveren om online oplossingen te beoordelen.
 Dit hangt vooral samen met de hiervoor opgelijste nadelen. 
-Als deze beperkt kunnen worden, dan verwachten we dat er een zeer lage instapdrempel zal zijn.
+Als deze beperkt kunnen worden kan verwacht worden dat de instapdrempel laag zal zijn.
 
 Verhogen we de kwaliteit van het verbeterproces en van het resultaat ervan?
 ===========================================================================

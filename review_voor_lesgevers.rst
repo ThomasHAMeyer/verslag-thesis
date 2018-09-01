@@ -1,7 +1,7 @@
 ==================================
 Werken met reviews als beoordelaar
 ==================================
-De cursus webpagina is op drie plaatsen uitgebreid. 
+De Cursus-webpagina is op drie plaatsen uitgebreid. 
 In de beschrijving van de cursus zijn er twee knoppen geplaatst, één om een review aan te maken en één om een overzicht van alle reviews van deze cursus te bekijken. 
 
 .. image:: images/reviews/reviewer/course_description.png
@@ -37,32 +37,32 @@ Review bekijken
 ===============
 De webpagina van een review bestaat uit 3 delen.
 
-Een beschrijving waarin metadata van de review te zien is.
-De knop om de review te bewerking staat hierin rechtsboven.
-De beschrijving laat zien hoeveel oplossingen al beoordeeld zijn, hoeveel er nog te beoordelen zijn, hoeveel niet ingediende oplossingen er zijn en hoeveel studenten geregistreerd zijn in de review.
-Hoeveel oplossingen al beoordeeld zijn is ook procentueel te zien.
-De deadline is ook zichtbaar in het groen als de deadline nog niet verlopen is, rood als ze al wel verlopen is.
-De datum van vrijgave is groen als ze niet verlopen is, rood als ze dat wel is.
-Als er geen datum van vrijgave is zal dit aangeduid zijn.
-Er is een knop aanwezig om de opmerkingen vrij te geven als ze nog niet vrijgegeven zijn en een knop om ze te verbergen als ze wel al vrijgegeven zijn.
-Het vrijgeven door de knop stelt het moment als vrijgave in op het moment dat de knop is ingedrukt.
-Het verbergen door de knop stelt de vrijgave in als onbepaald.
+- Een beschrijving waarin metadata van de review te zien is.
+  De knop om de review te bewerken staat hierin rechtsboven.
+  De beschrijving laat zien hoeveel oplossingen al beoordeeld zijn, hoeveel er nog te beoordelen zijn, hoeveel niet ingediende oplossingen er zijn en hoeveel studenten geregistreerd zijn in de review.
+  Hoeveel oplossingen al beoordeeld zijn is ook procentueel te zien.
+  De deadline is zichtbaar in het groen als de deadline nog niet verlopen is, rood als ze al wel verlopen is.
+  De datum van vrijgave is groen als ze niet verlopen is, rood als ze dat wel is.
+  Als er geen datum van vrijgave is zal dit aangeduid zijn.
+  Er is een knop aanwezig om de opmerkingen vrij te geven als ze nog niet vrijgegeven zijn en een knop om ze te verbergen als ze wel al vrijgegeven zijn.
+  Het vrijgeven door op de vrijgave knop te drukken stelt de datum van vrijgave in op de huidige datum.
+  Het verbergen door de knop stelt de vrijgave in als onbepaald.
 
 .. image:: images/reviews/reviewer/description_review.png
 
-Een lijst van alle geregistreerde oefeningen. 
-Het is mogelijk om in deze lijst te zoeken op naam van de oefeningen.
-In de lijst is de naam van de oefeningen te zien, hoe veel oplossingen in de oefening al verbeterd zijn, een icoon dat aangeeft of de oefening al volledig verbeterd is en een knop om verder te gaan om de oefening in de review in meer detail te bekijken.
-Als niet alle oplossingen van een oefening verbeterd zijn is er een gele waarschuwingsdriehoek te zien, anders is er een groen vinkje zichtbaar.
+- Een lijst van alle geregistreerde oefeningen. 
+  Het is mogelijk om in deze lijst te zoeken op naam van de oefeningen.
+  In de lijst is de naam van de oefeningen te zien, hoe veel oplossingen in de oefening al verbeterd zijn, een icoon dat aangeeft of de oefening al volledig verbeterd is en een knop om verder te gaan om de oefening in de review in meer detail te bekijken.
+  Als niet alle oplossingen van een oefening verbeterd zijn is er een gele waarschuwingsdriehoek te zien, anders is er een groen vinkje zichtbaar.
 
 .. image:: images/reviews/reviewer/show_review_exercises.png
 
-Het laatste is een lijst van alle geregistreerde gebruikers.
-Dit is een spiegeling van de lijst met oefeningen.
-Er is de optie te zoeken op gebruikersnaam.
-In de lijst is de gebruikersnaam, de naam en het e-mailadres van de gebruiker te zien.
-Er is ook te zien hoeveel oplossingen er van een gebruiker al beoordeeld zijn.
-Voor elke gebruiker is er een knop om verder te gaan en deze gebruiker in de review in meer detail te bekijken.  
+- Het laatste is een lijst van alle geregistreerde gebruikers.
+  Dit is een spiegeling van de lijst met oefeningen.
+  Er is de optie te zoeken op gebruikersnaam.
+  In de lijst is de gebruikersnaam, de naam en het e-mailadres van de gebruiker te zien.
+  Er is ook te zien hoeveel oplossingen er van een gebruiker al beoordeeld zijn.
+  Voor elke gebruiker is er een knop om verder te gaan en deze gebruiker in de review in meer detail te bekijken.  
 
 .. image:: images/reviews/reviewer/show_review_users.png
 
@@ -107,7 +107,7 @@ Er zijn twee knoppen: één om in alfabetische volgorde alle niet beoordeelde op
 
 De lijst met gebruikers bestaat uit twee bladeren: een blad met gebruikers wiens oplossing nog beoordeeld moet worden en een blad met gebruikers wiens oplossing al beoordeeld is.
 Een rij in de lijst bevat altijd de gebruikersnaam, de naam en het e-mailadres van de gebruiker, hoeveel oplossingen van de gebruiker er in de review al verbeterd zijn en de status van de oplossing van de gebruiker.
-De voortgang hier is aanklikbaar en verwijst door naar de detail pagina van de gebruiker in kwestie in de review. 
+De voortgang hier is aanklikbaar en verwijst naar de detail-pagina van de gebruiker in kwestie in de review. 
 De status van de oplossing is aanklikbaar en leid naar een pagina waarop de oplossing beoordeeld kan worden.
 Naar deze pagina gaan legt de oplossing van de student vast.
 Dit wil zeggen dat de lijst altijd deze oplossing neemt in de review, ook al zijn er recentere oplossingen die voor de deadline zijn ingediend.
@@ -134,9 +134,9 @@ Het is wel mogelijk om de oefeningen in volgorde te doorlopen.
 .. image:: images/reviews/reviewer/show_user_description.png
 
 De lijst van gebruikers is gelijkaardig aan de lijst met gebruikers in :ref:`per_oefening_bekijken`.
-Een rij bevat een gele zandloper als de oplossing ingeladen is, de titel van de oefening, hoeveel oplossingen van de oefening er al beoordeeld zijn en de status van de oplossing van de gebruiker met eventuele waarschuwing als er nieuwere geldige oplossingen zijn.
-De voortgang aanklikken verwijst door naar de detail pagina van de oefening in de review.
-De status aanklikken refereert door naar een pagina waar de oplossing beoordeeld kan worden.
+Een rij bevat een gele zandloper als de oplossing ingeladen is, de titel van de oefening, hoeveel oplossingen van de oefening er al beoordeeld zijn en de status van de oplossing van de gebruiker met eventuele waarschuwing als er recentere geldige oplossingen zijn.
+De voortgang aanklikken verwijst door naar de detail-pagina van de oefening in de review.
+De status aanklikken refereert naar een pagina waar de oplossing beoordeeld kan worden.
 
 .. image:: images/reviews/reviewer/show_user_exercises.png
 
@@ -147,9 +147,9 @@ Er is de optie om alle niet ingediende oplossingen als beoordeeld te markeren, z
 Enkele oplossing beoordelen
 ===========================
 Als we vanuit de detail-pagina van een oefening of gebruiker in de review op de status van een oplossing drukken, komen we op een pagina waar we de oplossing kunnen beoordelen.
-Deze is gelijkaardig aan de standaard oplossing-pagina, de informatie van de oplossing en de status van de beoordeling is te zien, evenals de code.
-Het is ook mogelijk om conversaties te starten en reacties te plaatsen zoals bij de oplossing-pagina.
-Deze conversaties en reacties zijn pas zichtbaar op de standaard oplossing-pagina als alle opmerkingen in de review vrijgegeven worden.
+Deze is gelijkaardig aan de standaard Oplossing-pagina, de informatie van de oplossing en de status van de beoordeling is te zien, evenals de code.
+Het is ook mogelijk om conversaties te starten en reacties te plaatsen zoals bij de Oplossing-pagina.
+Deze conversaties en reacties zijn pas zichtbaar op de standaard Oplossing-pagina als alle opmerkingen in de review vrijgegeven worden.
 
 .. image:: images/reviews/reviewer/review_single.png
 
@@ -157,7 +157,7 @@ De grote verschillen met de standaard pagina zijn de knoppen rechtsboven in het 
 Er zijn drie knoppen waarvan er maar twee op hetzelfde moment zichtbaar kunnen zijn.
 
 De eerste knop is enkel zichtbaar als de oplossing nog niet beoordeeld is en laat toe om de oplossing te beoordelen.
-Nadien wordt de gebruiker doorverwezen naar de detail pagina waarvan ze komen.
+Nadien wordt de gebruiker doorverwezen naar de detail-pagina waarvan ze komen.
 
 .. image:: images/reviews/reviewer/review_button.png
 
@@ -165,7 +165,7 @@ De volgende knop is enkel zichtbaar als de oplossing beoordeeld is en dient om d
 
 .. image:: images/reviews/reviewer/unreview_button.png
 
-De laatste knop is altijd aanwezig en verwijst de gebruiker terug naar de detail pagina waarvan ze komen.
+De laatste knop is altijd aanwezig en verwijst de gebruiker terug naar de detail-pagina waarvan ze komen.
 
 .. image:: images/reviews/reviewer/list_button.png
 
@@ -174,21 +174,21 @@ Dit wordt verder beschreven in het volgende deel.
 
 Er is een licht verschillende pagina voor niet ingediende oplossingen.
 Hierop is geen code zichtbaar en is er geen optie om conversaties te maken.
-Er is een menu aanwezig om een andere oplossing in te laden (als deze er is).
+Er is een menu aanwezig om een andere oplossing in te laden (als er nog niet beoordeelde oplossingen over zijn).
 
 .. image:: images/reviews/reviewer/blanco_submission.png
 
 Andere oplossing inladen
 ========================
 Het is mogelijk om de ingeladen oplossing aan te passen.
-Dit kan vanuit de beoordeel pagina.
-Het menu hiervoor is slechts tijdelijk, dit gaat vervangen worden door een mooier en informatiever element.
+Dit kan vanuit de beoordeel-pagina.
+Het menu hiervoor is slechts tijdelijk, dit gaat vervangen worden door een visueel attractiever en informatiever element.
 
 .. image:: images/reviews/reviewer/change_submission_menu.png
 
 Dit menu laat toe om naar een vorige of een volgende oplossing te gaan (als deze aanwezig zijn).
 Het laat ook zien welke oplossing voorlopig ingeladen is en welke oplossing er bekeken wordt.
-ook laat het de recentste oplossing voor de deadline zien als dit niet de oplossing is die op het moment bekeken wordt.
+Ook laat het de recentste oplossing voor de deadline zien als dit niet de oplossing is die op het moment bekeken wordt.
 De oplossingen worden met hun id aangeduid.
 
 Als naar een andere oplossing gegaan wordt, komt men op een aparte pagina uit.
@@ -244,7 +244,7 @@ Het doel is niet dat de link tussen gebruiker en oplossing onachterhaalbaar is.
 
 Overzicht reviews bekijken
 ==========================
-Vanaf de cursus pagina is er een knop om alle reviews te bekijken.
+Vanaf de Cursus-pagina is er een knop om alle reviews te bekijken.
 Dit leid naar een pagina met een lijst van alle reviews die tot de cursus behoren.
 In deze lijst staan alle reviews met de titel van de review, de voortgang in de review, of alle oplossingen beoordeeld zijn en of de opmerkingen vrijgegeven zijn.
 Als er op de titel van een review geklikt wordt, wordt er doorverwezen naar de pagina van deze review.
