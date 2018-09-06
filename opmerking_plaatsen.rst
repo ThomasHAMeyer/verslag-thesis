@@ -33,6 +33,7 @@ Als er geprobeerd wordt om een conversatie te starten zonder titel en/of boodsch
 Als er code geselecteerd wordt en er op de knop voor het toevoegen van code gedrukt wordt, dan zal deze aan de conversatie gekoppeld worden.
 Hieronder staan twee afbeeldingen: één voor er code toegevoegd is en één nadat code toegevoegd is.
 Het is mogelijk om de code meermaals aan te passen door nieuwe code te selecteren en op de knop te drukken of om de code weg te laten door niets te selecteren en op de knop te drukken.
+
 .. image:: images/opmerkingen/start_conversation_pre_code_selection.png
 
 .. image:: images/opmerkingen/start_conversation_post_code_selection.png
@@ -79,6 +80,7 @@ Conversatie aanpassen en verwijderen
 
 Het is mogelijk om de titel van een conversatie aan te passen, het eerste bericht van de conversatie aan te passen en om de conversatie te verwijderen.
 Voor elk van deze drie mogelijkheden zijn er knoppen voorzien.
+
 .. image:: images/opmerkingen/conversation.png
 
 Als er op de knop om het eerste bericht aan te passen wordt gedrukt, krijgt de gebruiker een tekstvak te zien waar hij de tekst van het bericht kan aanpassen.
